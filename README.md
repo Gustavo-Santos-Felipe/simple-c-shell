@@ -46,23 +46,6 @@ O shell opera em um ciclo infinito de três etapas principais (REPL - Read, Eval
   - O filho usa execvp() para substituir sua imagem pelo programa desejado.
   - O pai usa waitpid() para aguardar o término do filho.
 
-## 📚 Aprendizados
-
-Este projeto foi desenvolvido para consolidar conhecimentos em:
-
-- Linguagem C e Ponteiros.
-- System Calls do Linux/Unix.
-- Gerenciamento de memória (malloc/free).
-
-Desenvolvido por Gustavo.
-
----
-
-### Resumo do Projeto (Para você falar na entrevista)
-
-Se um recrutador perguntar "O que é esse projeto?", você diz:
-
-> "É uma implementação de um Shell Unix básico. Eu queria entender como o sistema operacional gerencia processos em baixo nível. Ele funciona lendo a entrada do usuário, fazendo o parsing dos argumentos e usando *system calls* como `fork` e `exec` para rodar os programas. Também implementei comandos internos como o `cd`, que precisam manipular o estado do próprio processo pai, algo que não dá para fazer apenas chamando um executável externo."
 
 Isso mostra que você entende de **Sistemas Operacionais** e **Ponteiros**, duas coisas que a galera de engenharia valoriza muito.
 
