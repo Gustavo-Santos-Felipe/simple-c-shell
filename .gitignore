@@ -1,0 +1,14 @@
+# Compiled objects
+*.o
+myshell
+*.exe
+
+# Editor files
+*~
+*.swp
+
+# IDEs
+.vscode/
+
+# OS files
+.DS_Store
